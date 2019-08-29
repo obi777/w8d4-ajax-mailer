@@ -1,0 +1,98 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+
+ @import "bootstrap";
+
+
+html{
+	background-image: url(http://iwallpapers2.free.fr/images/Paysages/Hiver/Magnifique_fond_ecran_HD_-_Hiver.jpg);
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding-top: 8%;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+}
+
+#left{
+	background-color: white;
+	width: 350px;
+	height: 500px;
+	border-radius: 0px 0px 0px 20px;
+	border-style: solid;
+	border-color: grey;
+	border-width: 2px;
+	overflow: scroll;
+}
+
+#right{
+	background-color: white;
+	width: 500px;
+	height: 500px;
+	border-radius: 0px 0px 20px 0px;
+	border-style: solid;
+	border-color: grey;
+	border-width: 2px;
+	display: flex;
+	justify-content: flex-start;
+	overflow: scroll;
+}
+
+table{
+	margin: auto;
+	float: left;
+}
+
+#contenu{
+	float: right;
+}
+
+#titre{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 0px;
+	padding-top: -50px;
+	height: 50px;
+	background-color: #2980B9;
+	border-radius: 20px 20px 0px 0px;
+	font-family: 'Snell Roundhand', serif;
+	font-style: italic;
+}
+
+tr{
+	line-height: 3.5em;
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;	
+}
+
+
+
+#dede{
+	display: flex;
+	justify-content: center;
+}
+
+#crud{
+	text-decoration: none;
+	margin: auto;
+}
+
